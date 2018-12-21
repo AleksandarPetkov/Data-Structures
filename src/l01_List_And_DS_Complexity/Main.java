@@ -41,5 +41,10 @@ public class Main  {
         System.out.println("Before set "+ list.get(currentIndex));
         list.set(currentIndex, newValue);
         System.out.println("After set "+ list.get(currentIndex));
+
+        //6. Check Iterable
+        for (Integer integer : list) {
+            System.out.println(integer);
+        }
     }
 }

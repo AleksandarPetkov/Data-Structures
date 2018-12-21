@@ -1,6 +1,9 @@
 package l01_List_And_DS_Complexity.customlist;
 
-public class CustomList<E>{
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+public class CustomList<E> implements Iterable<E>{
 
     private int myListCapacity;
 
@@ -61,5 +64,37 @@ public class CustomList<E>{
         }
         return this.array;
     }
+
+
+    public Iterator<E> iterator() {
+        return new MyListIterator();
+    }
+
+    private final class MyListIterator implements Iterator<E>{
+
+        private int current;
+
+        public MyListIterator() {
+            this.current = 0;
+        }
+
+        @Override
+        public boolean hasNext() {
+            if (current < size) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        @Override
+        public E next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            return array[current++];
+        }
+    }
+
 }
 
