@@ -10,6 +10,31 @@ public class MyLinkedList<T> implements Iterable<T> {
     public MyLinkedList() {
     }
 
+    public void addFirst(T item){
+        Node oldHead = this.head;
+
+        this.head = new Node(item);
+        this.head.next = oldHead;
+
+        if (size == 0){
+            this.tail = this.head;
+        }
+        this.size++;
+    }
+
+    public void addLast(T value){
+        Node oldTail = this.tail;
+
+        this.tail = new Node(value);
+        
+        if (size == 0){
+            this.head = this.tail;
+        } else {
+            oldTail.next = this.tail;
+        }
+        this.size++;
+    }
+
     @Override
     public Iterator<T> iterator() {
         return new LinkedListIterator();
@@ -52,7 +77,7 @@ public class MyLinkedList<T> implements Iterable<T> {
 
         @Override
         public boolean hasNext() {
-            return this.current == tail;
+            return this.current != null;
         }
 
         @Override
