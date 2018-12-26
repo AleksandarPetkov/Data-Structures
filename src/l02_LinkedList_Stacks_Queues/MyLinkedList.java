@@ -26,13 +26,58 @@ public class MyLinkedList<T> implements Iterable<T> {
         Node oldTail = this.tail;
 
         this.tail = new Node(value);
-        
+
         if (size == 0){
             this.head = this.tail;
         } else {
             oldTail.next = this.tail;
         }
         this.size++;
+    }
+
+    public T removeFirst(){
+        if (size == 0){
+            throw new UnsupportedOperationException();
+        }
+
+        Node oldHead = this.head;
+        this.head = this.head.next;
+
+        this.size--;
+        if (this.size == 0){
+            this.tail = null;
+        }
+
+        return oldHead.value;
+    }
+
+    public T removeLast(){
+
+        if (this.size == 0){
+            throw new UnsupportedOperationException();
+        }
+
+        Node oldTail = this.tail;
+
+        if (this.size == 1){
+            this.head = null;
+            this.tail = null;
+        } else {
+            Node node = this.getSecondToLast();
+            node.next = null;
+            this.tail = node;
+        }
+        this.size--;
+
+        return oldTail.value;
+    }
+
+    private Node getSecondToLast() {
+        Node current = head;
+        while (current.next != tail){
+            current = current.next;
+        }
+        return current;
     }
 
     @Override
