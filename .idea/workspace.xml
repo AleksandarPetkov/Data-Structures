@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f580da0f-43d9-4d48-b98a-75f5c9278167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyLinkedListTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyLinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/CalculateSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/ReverseNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/SequenceNM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList$LinkedListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList$LinkedListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures/l02_LinkedList_Stacks_Queues/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,25 +28,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="23" />
+          <entry key="java" value="26" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="26" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3851" />
+          <entry key="java" value="3856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3851" />
+          <entry key="JAVA" value="3856" />
         </counts>
       </usages-collector>
     </session>
@@ -110,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-740">
@@ -123,6 +115,39 @@
                 <element signature="e#566#567#0" expanded="true" />
                 <element signature="e#598#599#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/CalculateSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/ReverseNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/SequenceNM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -156,6 +181,9 @@
         <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyArrayStack.java" />
         <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyLinkedStack.java" />
         <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/CalculateSequence.java" />
+        <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/ReverseNumbers.java" />
+        <option value="$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/SequenceNM.java" />
       </list>
     </option>
   </component>
@@ -165,7 +193,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -197,6 +225,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="l02_LinkedList_Stacks_Queues" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="l02_LinkedList_Stacks_Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,7 +246,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545731958441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545982790849" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -326,7 +361,7 @@
       <updated>1545039493148</updated>
       <workItem from="1545039500999" duration="2061000" />
       <workItem from="1545123134860" duration="7911000" />
-      <workItem from="1545203704923" duration="17692000" />
+      <workItem from="1545203704923" duration="17946000" />
     </task>
     <servers />
   </component>
@@ -339,10 +374,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27664000" />
+    <option name="totallyTimeSpent" value="27918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,6 +576,33 @@
             <element signature="e#566#567#0" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/CalculateSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/ReverseNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l02_LinkedList_Stacks_Queues/exercises/SequenceNM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
