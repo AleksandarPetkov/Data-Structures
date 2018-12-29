@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -35,7 +36,34 @@ public class Main {
 
         //Problem 2
         printTree(tree, 0);
+
+        //Problem 3
+        printLeafNodes(tree);
     }
+
+    private static void printLeafNodes(BasicTree<Integer> tree) {
+        TreeSet<Integer> values = new TreeSet<>();
+        for (BasicTree<Integer> child : tree.getChildren()) {
+            getLeafNodes(child, values);
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append("Leaf nodes: ");
+        for (Integer value : values) {
+            sb.append(value).append(" ");
+        }
+        System.out.println(sb);
+    }
+
+    private static void getLeafNodes(BasicTree<Integer> child, TreeSet<Integer> values) {
+        if (child.getChildren().isEmpty()) {
+            values.add(child.getValue());
+        } else {
+            for (BasicTree<Integer> ch : child.getChildren()) {
+                getLeafNodes(ch, values);
+            }
+        }
+    }
+
 
     private static void printTree(BasicTree<Integer> tree, int padding) {
         for (int i = 0; i < padding; i++) {
