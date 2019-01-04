@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f580da0f-43d9-4d48-b98a-75f5c9278167" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l04_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,65 +27,58 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="30" />
+          <entry key="java" value="32" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="32" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4059" />
+          <entry key="java" value="4081" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4059" />
+          <entry key="JAVA" value="4081" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BasicTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/src/l04_BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="1980">
+              <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
               <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#2495#2496#0" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+                <element signature="e#11084#11085#0" expanded="true" />
+                <element signature="e#11120#11121#0" expanded="true" />
+                <element signature="e#11153#11154#0" expanded="true" />
+                <element signature="e#11188#11189#0" expanded="true" />
+                <element signature="e#11222#11223#0" expanded="true" />
+                <element signature="e#11258#11259#0" expanded="true" />
+                <element signature="e#11311#11312#0" expanded="true" />
+                <element signature="e#11357#11358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/Main.java" />
         <option value="$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BasicTree.java" />
         <option value="$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/l04_BinarySearchTree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/l04_BinarySearchTree/Main.java" />
       </list>
     </option>
   </component>
@@ -160,12 +156,6 @@
               <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="l03_BasicTree_BinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +170,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546535069706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546598938414" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -296,7 +286,7 @@
       <workItem from="1545039500999" duration="2061000" />
       <workItem from="1545123134860" duration="7911000" />
       <workItem from="1545203704923" duration="21682000" />
-      <workItem from="1546496725891" duration="2092000" />
+      <workItem from="1546496725891" duration="3550000" />
     </task>
     <servers />
   </component>
@@ -312,11 +302,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33746000" />
+    <option name="totallyTimeSpent" value="35204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -390,6 +379,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="10" column="85" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -418,6 +410,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-395">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,6 +449,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,6 +486,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-555">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,13 +518,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/l03_BasicTree_BinaryTree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="32">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l04_BinarySearchTree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/l04_BinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#11084#11085#0" expanded="true" />
+            <element signature="e#11120#11121#0" expanded="true" />
+            <element signature="e#11153#11154#0" expanded="true" />
+            <element signature="e#11188#11189#0" expanded="true" />
+            <element signature="e#11222#11223#0" expanded="true" />
+            <element signature="e#11258#11259#0" expanded="true" />
+            <element signature="e#11311#11312#0" expanded="true" />
+            <element signature="e#11357#11358#0" expanded="true" />
           </folding>
         </state>
       </provider>
